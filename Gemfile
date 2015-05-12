@@ -8,6 +8,8 @@ gem 'rails-api'
 gem 'spring', :group => :development
 
 gem 'sqlite3'
+gem 'mongoid', github: 'mongoid/mongoid'
+# gem 'bson_ext'#, '~> 1.8.6'
 
 group :test, :development do
   gem 'shoulda-matchers', require: false
