@@ -5,17 +5,11 @@
 #= require angular-sanitize/angular-sanitize
 
 
-## Libraries
-
-#= #require_tree ./libraries
-
-
 ## Application
 
 #= require_tree ./modules
 #= require app
 #= require router
 #= require_tree ./models
-#= #require_tree ./services
 #= require_tree ./controllers
 #= require_tree ../templates
