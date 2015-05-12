@@ -7,10 +7,14 @@ gem 'rails-api'
 
 gem 'spring', :group => :development
 
-
 gem 'sqlite3'
 
-
+group :test, :development do
+  gem 'shoulda-matchers', require: false
+  gem 'rspec-rails'
+  gem 'database_cleaner'
+  gem 'factory_girl_rails'
+end
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
