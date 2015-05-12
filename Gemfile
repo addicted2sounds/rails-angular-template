@@ -14,13 +14,16 @@ group :test, :development do
   gem 'rspec-rails'
   gem 'database_cleaner'
   gem 'factory_girl_rails'
+  gem 'faker'
 end
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+# To use sass
+gem 'sass-rails'
 # To use Jbuilder templates for JSON
-# gem 'jbuilder'
+gem 'jbuilder'
 
 # Use unicorn as the app server
 # gem 'unicorn'
