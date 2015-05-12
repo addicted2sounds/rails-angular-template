@@ -9,12 +9,19 @@ gem 'spring', :group => :development
 
 gem 'sqlite3'
 
+#Scripts
+gem 'coffee-rails', '~> 4.0.0'
+gem 'uglifier', '>= 1.3.0'
+gem 'angular-rails-templates'
+gem 'angularjs-rails-resource'
+
 group :test, :development do
   gem 'shoulda-matchers', require: false
   gem 'rspec-rails'
   gem 'database_cleaner'
   gem 'factory_girl_rails'
   gem 'faker'
+  gem 'jasmine-rails'
 end
 
 group :development do
