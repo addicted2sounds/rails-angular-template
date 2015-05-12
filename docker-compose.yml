@@ -1,0 +1,8 @@
+db:
+  image: mongo
+  hostname: db.dev
+  volumes:
+    - /var/lib/mongodb
+  ports:
+  - 27017:27017
+  - 28017:28017

@@ -8,6 +8,8 @@ gem 'rails-api'
 gem 'spring', :group => :development
 
 gem 'sqlite3'
+gem 'mongoid', github: 'mongoid/mongoid'
+# gem 'bson_ext'#, '~> 1.8.6'
 
 gem 'sprockets', '2.12.3'
 gem 'bower-rails'
