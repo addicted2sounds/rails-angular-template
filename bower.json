@@ -1,0 +1,10 @@
+{
+  "name": "App",
+  "dependencies": {
+    "angular": "latest",
+    "angular-sanitize": "latest",
+    "angular-ui-router": "latest",
+    "bootstrap-sass-official": "latest",
+    "angular-paginate-anything": "latest"
+  }
+}
