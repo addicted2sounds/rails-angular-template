@@ -5,6 +5,7 @@
     "angular-sanitize": "latest",
     "angular-ui-router": "latest",
     "bootstrap-sass-official": "latest",
-    "angular-paginate-anything": "latest"
+    "angular-paginate-anything": "latest",
+    "angular-devise": "latest"
   }
 }
