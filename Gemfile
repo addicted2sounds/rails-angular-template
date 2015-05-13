@@ -52,3 +52,6 @@ gem 'capistrano', :group => :development
 
 # Use Slim Templates
 gem 'slim-rails'
+
+# Auth
+gem 'devise'
