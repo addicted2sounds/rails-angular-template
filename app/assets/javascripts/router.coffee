@@ -9,7 +9,7 @@ app.config([
       templateUrl: 'layouts/index.html',
       controller: 'layout'
 
-    .state 'public.index',
+    .state 'public.login',
       url: '/',
       templateUrl: 'views/index.html'
       controller: 'index'
