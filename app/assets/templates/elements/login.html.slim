@@ -1,6 +1,8 @@
-#emailField
-  |Email
-  input#email data-ng-model="login.email"
-#passwordField
-  |Password
-  input#password data-ng-model="login.password"
+form.well.col-md-6
+  #emailField.form-group
+    label for="email" Email
+    input#email.form-control data-ng-model="login.email" placeholder="Email"
+  #passwordField.form-group
+    label for="password" Password
+    input#password.form-control data-ng-model="login.password" placeholder="Password"
+  btn.btn.btn-primary type="submit" Submit
