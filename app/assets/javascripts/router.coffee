@@ -11,8 +11,8 @@ app.config([
 
     .state 'public.login',
       url: '/',
-      templateUrl: 'views/index.html'
-      controller: 'index'
+      templateUrl: 'views/login.html'
+      controller: 'LoginCtrl'
 
     $urlRouterProvider.otherwise '/'
 

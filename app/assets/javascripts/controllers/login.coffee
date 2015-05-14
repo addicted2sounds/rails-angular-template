@@ -1,4 +1,5 @@
 app.controller 'LoginCtrl', [ '$scope', ($scope) ->
-  $scope.login ->
-    alert ('login')
+  console.debug($scope)
+#  $scope.login ->
+#    alert ('login')
 ]
