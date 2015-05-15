@@ -26,6 +26,8 @@ group :test, :development do
   gem 'database_cleaner'
   gem 'factory_girl_rails'
   gem 'faker'
+  gem 'capybara'
+  gem 'selenium-webdriver'
   gem 'jasmine-rails'
 end
 
