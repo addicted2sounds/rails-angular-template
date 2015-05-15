@@ -5,14 +5,15 @@ app.config([
     $stateProvider
     .state 'public',
       abstract: true,
-      url: '',
+      url: '/',
       templateUrl: 'layouts/index.html',
       controller: 'layout'
 
     .state 'public.login',
-      url: '/',
+      url: '',
       templateUrl: 'views/login.html'
       controller: 'LoginCtrl'
+      controllerAs: 'user'
 
     $urlRouterProvider.otherwise '/'
 

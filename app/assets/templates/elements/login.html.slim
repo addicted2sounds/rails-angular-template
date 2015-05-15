@@ -1,8 +1,8 @@
-form.well.col-md-6
+form.well.col-md-6 ng-submit="login()"
   #emailField.form-group
     label for="email" Email
-    input#email.form-control data-ng-model="login.email" placeholder="Email"
+    input#email.form-control data-ng-model="user.email" placeholder="Email"
   #passwordField.form-group
     label for="password" Password
-    input#password.form-control data-ng-model="login.password" placeholder="Password"
-  btn.btn.btn-primary type="submit" Submit
+    input#password.form-control data-ng-model="user.password" placeholder="Password"
+  input.btn.btn-primary type="submit" value="Submit"
